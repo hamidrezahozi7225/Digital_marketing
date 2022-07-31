@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* background-color: #14161a; */
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+tr {
+  border-bottom: 1px solid white;
+  background-color: #14161a;
+}
+tr:hover {
+  background-color: gold;
+}
+a span {
+  color: white;
+}
+tr:hover a {
+  color: #000000;
+}
+tr:hover span {
+  color: #000000;
+}
+.navbarlink {
+  margin-right: 10px;
+}
+.navbarlink:hover {
+  color: gold;
+}
+@media screen and (min-width: 1000px) {
+  .banner {
+    height: 550px;
+  }
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 100px;
+  background-color: #14161a;
+}
+.search input {
+  margin: 25px;
+  width: 400px;
+  height: 35px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+.search input:focus {
+  outline: none;
+  border: 3px solid gold;
+  /* background-color: gold; */
+}
+/* .paginate {
+  background-color: aqua;
+  color: white;
+  height: 20px;
+} */
+ul {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+@media screen and (max-width: 435px) {
+  li {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+  }
+}
+li {
+  background-color: rgb(184, 181, 169);
+  padding: 5px;
+}
+li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+li:last-child {
+  border-radius: 0px 5px 5px 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #14161a;
+  height: 120px;
+  align-items: center;
+  border-top: 3px solid gold;
+}
+h3 {
+  vertical-align: middle;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14161a;
+  min-height: 50vh;
+}
